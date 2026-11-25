@@ -4,6 +4,8 @@ DeepSeek Harness（DSH）Web 界面插件：把主页（新会话）的**对话�
 
 停用或卸载插件后，界面**自动恢复**为默认的居中布局。
 
+npm 包名：[`dsh-composer-bottom`](https://www.npmjs.com/package/dsh-composer-bottom) · 源码仓库：[GitHub](https://github.com/zhenhuilv/dsh-composer-bottom)
+
 ## 效果
 
 | | 主页（插件生效） | 开始对话后 |
@@ -17,25 +19,40 @@ DeepSeek Harness（DSH）Web 界面插件：把主页（新会话）的**对话�
 
 ## 安装
 
-### 方式一：本地目录安装
+### 方式一：npm 包安装（推荐）
 
-1. 克隆或下载本仓库（需要的是包含 `package.json` 的目录）：
-   ```sh
-   git clone https://github.com/zhenhuilv/dsh-composer-bottom.git
-   ```
-2. 打开 DeepSeek Harness 左侧栏 → **插件** → **添加插件**，选择克隆出的 `dsh-composer-bottom` 目录；
-3. 安装后刷新页面（或重启 DSH）即可生效。
+打开 DeepSeek Harness 左侧栏 → **插件** → **添加插件**，在输入框直接填包名：
 
-### 方式二：从插件索引（Discover）安装
+```
+dsh-composer-bottom
+```
 
-本仓库根目录自带一份标准格式的插件索引 [`index.json`](index.json)：
+选择安装源 **npm**，点 **安装** 并确认即可。
+
+### 方式二：GitHub 仓库安装
+
+在同一个对话框中填入仓库地址：
+
+```
+https://github.com/zhenhuilv/dsh-composer-bottom
+```
+
+### 方式三：本地目录安装
+
+```sh
+git clone https://github.com/zhenhuilv/dsh-composer-bottom.git
+```
+
+**插件** → **添加插件** → 选择克隆出的目录。
+
+### 方式四：插件索引（Discover）安装
 
 1. **插件** 页 → **实验性插件** → 开启 **Custom plugin indexes**，出现 **Discover（发现）** 标签页；
 2. 在 **Discover** 里选择 **添加索引源**，输入：
    ```
    https://raw.githubusercontent.com/zhenhuilv/dsh-composer-bottom/main/index.json
    ```
-3. 搜索 "Bottom composer" / "底部输入框"，点 **Install** 并确认即可。
+3. 搜索 "Bottom composer" / "底部输入框"，点 **Install** 并确认。
 
 ## 卸载 / 停用
 
