@@ -17,12 +17,25 @@ DeepSeek Harness（DSH）Web 界面插件：把主页（新会话）的**对话�
 
 ## 安装
 
+### 方式一：本地目录安装
+
 1. 克隆或下载本仓库（需要的是包含 `package.json` 的目录）：
    ```sh
    git clone https://github.com/zhenhuilv/dsh-composer-bottom.git
    ```
 2. 打开 DeepSeek Harness 左侧栏 → **插件** → **添加插件**，选择克隆出的 `dsh-composer-bottom` 目录；
 3. 安装后刷新页面（或重启 DSH）即可生效。
+
+### 方式二：从插件索引（Discover）安装
+
+本仓库根目录自带一份标准格式的插件索引 [`index.json`](index.json)：
+
+1. **插件** 页 → **实验性插件** → 开启 **Custom plugin indexes**，出现 **Discover（发现）** 标签页；
+2. 在 **Discover** 里选择 **添加索引源**，输入：
+   ```
+   https://raw.githubusercontent.com/zhenhuilv/dsh-composer-bottom/main/index.json
+   ```
+3. 搜索 "Bottom composer" / "底部输入框"，点 **Install** 并确认即可。
 
 ## 卸载 / 停用
 
