@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Bottom composer",
+    "description": "Docks the conversation input card at the bottom of the home column and keeps the fish logo centered where the stock layout paints it. Disabling or removing the plugin restores the centered layout automatically."
+  }
+}
