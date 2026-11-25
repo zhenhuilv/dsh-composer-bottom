@@ -1,0 +1,40 @@
+{
+    "format":  1,
+    "title":  {
+                  "en":  "zhenhuilv\u0027s DSH plugins",
+                  "zh":  "zhenhuilv 的 DSH 插件"
+              },
+    "plugins":  [
+                    {
+                        "name":  "@local/composer-bottom",
+                        "title":  {
+                                      "en":  "Bottom composer",
+                                      "zh":  "底部输入框"
+                                  },
+                        "description":  {
+                                            "en":  "Docks the home conversation input card at the bottom of the column, keeps the fish logo centered, and matches the active composer geometry exactly. Disabling or removing the plugin restores the stock layout automatically.",
+                                            "zh":  "将主页对话输入卡固定到会话栏底部，鱼形徽标保持居中，与对话态尺寸位置逐像素一致。停用或卸载后界面自动恢复默认布局。"
+                                        },
+                        "icon":  "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDM2IDM2IiBmaWxsPSJub25lIj4KICA8Y2lyY2xlIGN4PSIxOCIgY3k9IjEwLjUiIHI9IjMuNSIgZmlsbD0iIzNCN0ZDNCIvPgogIDxyZWN0IHg9IjUuNzUiIHk9IjIxLjc1IiB3aWR0aD0iMjQuNSIgaGVpZ2h0PSI4LjUiIHJ4PSIzLjI1IiBzdHJva2U9IiM4QTk0QTYiIHN0cm9rZS13aWR0aD0iMS41Ii8+CiAgPHJlY3QgeD0iOS41IiB5PSIyNSIgd2lkdGg9IjciIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IiM4QTk0QTYiLz4KPC9zdmc+Cg==",
+                        "author":  "zhenhuilv",
+                        "homepage":  "https://github.com/zhenhuilv/dsh-composer-bottom#readme",
+                        "repository":  {
+                                           "url":  "https://github.com/zhenhuilv/dsh-composer-bottom"
+                                       },
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "publishTimestamp":  1795617085,
+                                             "source":  {
+                                                            "type":  "git",
+                                                            "url":  "https://github.com/zhenhuilv/dsh-composer-bottom",
+                                                            "commit":  "8f7621ba80d119b4f6e2472cc0deb4048b2101a3"
+                                                        },
+                                             "engines":  {
+                                                             "dsh":  "\u003e=0.2.2-rc.5"
+                                                         }
+                                         }
+                                     ]
+                    }
+                ]
+}
