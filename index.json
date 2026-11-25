@@ -6,7 +6,7 @@
               },
     "plugins":  [
                     {
-                        "name":  "@local/composer-bottom",
+                        "name":  "dsh-composer-bottom",
                         "title":  {
                                       "en":  "Bottom composer",
                                       "zh":  "底部输入框"
@@ -24,11 +24,9 @@
                         "versions":  [
                                          {
                                              "version":  "1.0.0",
-                                             "publishTimestamp":  1795617085,
+                                             "publishTimestamp":  1795637882,
                                              "source":  {
-                                                            "type":  "git",
-                                                            "url":  "https://github.com/zhenhuilv/dsh-composer-bottom",
-                                                            "commit":  "8f7621ba80d119b4f6e2472cc0deb4048b2101a3"
+                                                            "type":  "npm"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.2-rc.5"
