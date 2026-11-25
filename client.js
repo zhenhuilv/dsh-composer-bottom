@@ -7,7 +7,7 @@
 // automatically — no persistent DOM or stylesheet mutation is left behind.
 
 window.__ModuleLoader__.load({
-  id: '@local/composer-bottom',
+  id: 'dsh-composer-bottom',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
