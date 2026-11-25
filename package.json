@@ -1,6 +1,21 @@
 {
-  "name": "@local/composer-bottom",
+  "name": "dsh-composer-bottom",
   "version": "1.0.0",
+  "description": "DeepSeek Harness plugin: dock the home composer card at the bottom of the conversation column, keep the fish logo centered, and match the active composer geometry exactly. Auto-reverts on disable.",
+  "license": "MIT",
+  "author": "zhenhuilv",
+  "homepage": "https://github.com/zhenhuilv/dsh-composer-bottom#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenhuilv/dsh-composer-bottom.git"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "composer",
+    "ui"
+  ],
   "private": false,
   "type": "module",
   "exports": {
