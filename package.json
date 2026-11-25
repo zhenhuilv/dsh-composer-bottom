@@ -1,7 +1,7 @@
 {
   "name": "@local/composer-bottom",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -17,6 +17,7 @@
     "icon.svg",
     "README.md"
   ],
+  "engines": { "dsh": ">=0.2.2-rc.5" },
   "dsh": {
     "bundle": { "patch": "./cordis.patch.yml" },
     "client": {
